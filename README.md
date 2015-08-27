@@ -47,8 +47,13 @@ distribution, if the version matches requirements, or compiled from source
     Usage: ndnfilesender <path to sender>/filename
     
     Usage:  ndnfilerequest <path to sender>/filename
-    
+
+Presently the filename that needs to be send has to be entered in the src/file-sender.cpp at onInputfile() only
+and then have to be recompiled and installed again
+and the name of the file which will be stored at the receiver side also has to be entered in src/file-requestor.cpp itself.
+This is just the optimization which needs to be done which can take it from the command line args only.
 
 * These tools need not be used together and can be used individually as well.
 * Please refer sample configuration files provided for details on how to create your own.
 * Use command line options shown above to adjust traffic configuration.
+-----------------------------------------------------
