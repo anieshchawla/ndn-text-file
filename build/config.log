@@ -1,0 +1,165 @@
+# project ndn-tlv-ping (0.1) configured on Thu Aug 27 10:07:35 2015 by
+# waf 1.8.2 (abi 98, python 20706f0 on linux2)
+# using ./waf configure
+#
+----------------------------------------
+Setting top to
+/home/aniesh/NDN/ndn-text-file-sender
+----------------------------------------
+Setting out to
+/home/aniesh/NDN/ndn-text-file-sender/build
+----------------------------------------
+Checking for 'g++' (C++ compiler)
+find program=['g++', 'c++'] paths=['/opt/OpenPrinting-Gutenprint/sbin', '/opt/OpenPrinting-Gutenprint/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='CXX' -> ['/usr/bin/g++']
+find program=['ar'] paths=['/opt/OpenPrinting-Gutenprint/sbin', '/opt/OpenPrinting-Gutenprint/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='AR' -> ['/usr/bin/ar']
+/usr/bin/g++
+----------------------------------------
+Checking supported CXXFLAGS
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_a8431ab133974a5743dcdcc95fdaffed/test.cpp[0m
+
+['/usr/bin/g++', '-Werror', '-std=c++0x', '../test.cpp', '-c', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_a8431ab133974a5743dcdcc95fdaffed/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_a8431ab133974a5743dcdcc95fdaffed/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_a8431ab133974a5743dcdcc95fdaffed/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_999e8554068b1aa4caa5a62c297605e0/test.cpp[0m
+
+['/usr/bin/g++', '-Werror', '-std=c++11', '../test.cpp', '-c', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_999e8554068b1aa4caa5a62c297605e0/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_999e8554068b1aa4caa5a62c297605e0/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_999e8554068b1aa4caa5a62c297605e0/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_c2072f1a29ba5d42f543b54d1e8dc131/test.cpp[0m
+
+['/usr/bin/g++', '-Werror', '-stdlib=libc++', '../test.cpp', '-c', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_c2072f1a29ba5d42f543b54d1e8dc131/testbuild/test.cpp.1.o']
+err: g++: error: unrecognized command line option ‘-stdlib=libc++’
+
+from /home/aniesh/NDN/ndn-text-file-sender: Test does not build: Traceback (most recent call last):
+  File "/home/aniesh/NDN/ndn-text-file-sender/.waf-1.8.2-a01aa13963437a19e5d8748cf2afd71b/waflib/Configure.py", line 337, in run_build
+    bld.compile()
+  File "/home/aniesh/NDN/ndn-text-file-sender/.waf-1.8.2-a01aa13963437a19e5d8748cf2afd71b/waflib/Build.py", line 184, in compile
+    raise Errors.BuildError(self.producer.error)
+BuildError: Build failed
+ -> task in 'testprog' failed (exit status 1): 
+	{task 139954065662992: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/g++', '-Werror', '-stdlib=libc++', '../test.cpp', '-c', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_c2072f1a29ba5d42f543b54d1e8dc131/testbuild/test.cpp.1.o']
+
+from /home/aniesh/NDN/ndn-text-file-sender: The configuration failed
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_941935dcf2b9b1b726f0a1f10a606420/test.cpp[0m
+
+['/usr/bin/g++', '-Werror', '-pedantic', '../test.cpp', '-c', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_941935dcf2b9b1b726f0a1f10a606420/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_941935dcf2b9b1b726f0a1f10a606420/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_941935dcf2b9b1b726f0a1f10a606420/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_6ff34369c31d9ff678edb8f5d0b320e2/test.cpp[0m
+
+['/usr/bin/g++', '-Werror', '-Wall', '../test.cpp', '-c', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_6ff34369c31d9ff678edb8f5d0b320e2/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_6ff34369c31d9ff678edb8f5d0b320e2/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_6ff34369c31d9ff678edb8f5d0b320e2/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_fd4cf18e4808ea8266d25b8637396df8/test.cpp[0m
+
+['/usr/bin/g++', '-Werror', '-O2', '../test.cpp', '-c', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_fd4cf18e4808ea8266d25b8637396df8/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_fd4cf18e4808ea8266d25b8637396df8/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_fd4cf18e4808ea8266d25b8637396df8/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_c1ed5f9d3758eecc2b8bc6b9003eb6a6/test.cpp[0m
+
+['/usr/bin/g++', '-Werror', '-g', '../test.cpp', '-c', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_c1ed5f9d3758eecc2b8bc6b9003eb6a6/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_c1ed5f9d3758eecc2b8bc6b9003eb6a6/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_c1ed5f9d3758eecc2b8bc6b9003eb6a6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+-std=c++0x -std=c++11 -pedantic -Wall -O2 -g
+----------------------------------------
+Checking supported LINKFLAGS
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_d2bdab2ac8303b4c45103bd2f43656b5/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++0x', '-std=c++11', '-pedantic', '-Wall', '-O2', '-g', '../test.cpp', '-c', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_d2bdab2ac8303b4c45103bd2f43656b5/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_d2bdab2ac8303b4c45103bd2f43656b5/testbuild/testprog[0m
+
+['/usr/bin/g++', '-Werror', '-stdlib=libc++', 'test.cpp.1.o', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_d2bdab2ac8303b4c45103bd2f43656b5/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+err: g++: error: unrecognized command line option ‘-stdlib=libc++’
+
+from /home/aniesh/NDN/ndn-text-file-sender: Test does not build: Traceback (most recent call last):
+  File "/home/aniesh/NDN/ndn-text-file-sender/.waf-1.8.2-a01aa13963437a19e5d8748cf2afd71b/waflib/Configure.py", line 337, in run_build
+    bld.compile()
+  File "/home/aniesh/NDN/ndn-text-file-sender/.waf-1.8.2-a01aa13963437a19e5d8748cf2afd71b/waflib/Build.py", line 184, in compile
+    raise Errors.BuildError(self.producer.error)
+BuildError: Build failed
+ -> task in 'testprog' failed (exit status 1): 
+	{task 139954063981392: cxxprogram test.cpp.1.o -> testprog}
+['/usr/bin/g++', '-Werror', '-stdlib=libc++', 'test.cpp.1.o', '-o', '/home/aniesh/NDN/ndn-text-file-sender/build/.conf_check_d2bdab2ac8303b4c45103bd2f43656b5/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+
+from /home/aniesh/NDN/ndn-text-file-sender: The configuration failed
+----------------------------------------
+Checking for program 'pkg-config'
+/usr/bin/pkg-config
+find program=['pkg-config'] paths=['/opt/OpenPrinting-Gutenprint/sbin', '/opt/OpenPrinting-Gutenprint/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='PKGCONFIG' -> ['/usr/bin/pkg-config']
+----------------------------------------
+Checking for 'libndn-cxx'
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libndn-cxx']
+out: -I/usr/local/include  -L/usr/local/lib -lndn-cxx -lboost_system -lboost_filesystem -lboost_date_time -lboost_iostreams -lboost_regex -lboost_program_options -lboost_chrono -lboost_random -lcryptopp -lsqlite3 -lrt -lpthread  
+
+yes
